@@ -1,10 +1,11 @@
+@import '../../styles/index.scss';
+
 .kanban__container {
     display: flex;
     flex-direction: column;
-    
+
     .kanban__section {
         background-color: grey;
-        
         .kanban__section__title {
             background-color: rgb(54, 51, 51);
             padding: 10px;
@@ -14,6 +15,10 @@
             padding: 10px;
             font-size: 1.2rem;
             background-color: rgb(139, 133, 133);
+            height: 250px;
+            @include media(tablet) {
+                height: 290px;
+            }
         }
     }
 }

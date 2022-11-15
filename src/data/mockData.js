@@ -21,7 +21,7 @@ const mockData = [
     },
     {
         id: uuidv4(),
-        title: '📋En Progreso',
+        title: '⏳En Progreso',
         tasks: [
             {
                 id: uuidv4(),
